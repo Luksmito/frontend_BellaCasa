@@ -1,0 +1,95 @@
+.pagina-produto{
+    position: absolute;
+    top: 22rem;
+    left: 2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    width: 76%;
+    height: 100%;
+    align-items: center;
+}
+
+.pagina-produto img{
+    position: relative;
+    margin-left: 1.4rem;
+    border: black solid 1px;
+    width: 30rem;
+    height: 30rem;
+}
+
+.pagina-produto .labels-produto{
+    position: relative;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}   
+
+.pagina-produto .labels-produto h1{
+    font: bolder;
+    color: black;
+}
+
+.pagina-produto .labels-produto p{
+    width: 100%;
+    position: relative;
+    margin-left: 4rem;
+}
+
+.pagina-produto .labels-produto h3{
+    color: rgb(108, 158, 32);
+    align-self: center;
+}
+
+.pagina-produto .botoes{
+    margin-top: 4rem;
+    
+}
+
+.pagina-produto .botoes button{
+    background-color: rgb(27, 245, 27);
+    height: 4rem;
+    color: black;
+    box-shadow: 1px 0px 7px rgba(0,0,0,0.5);
+}
+
+.pagina-produto .botoes .comprar{
+    margin-left:1rem;
+}
+
+@media (min-width: 700px){
+    
+    .pagina-produto{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    
+    .pagina-produto img{
+        width: 50rem;
+        height: 35rem;
+        align-self: flex-start;
+
+    }
+
+    .pagina-produto .labels-produto h3{
+        align-self: flex-start;
+    }
+
+    .pagina-produto .labels-produto{
+        position: relative;
+        display: flex;
+        margin-top: -25rem;
+        align-items: start;
+        margin-left: 10rem;
+    }
+
+    .pagina-produto .labels-produto p{
+        width: 100%;
+        position: relative;
+        align-self: flex-start;
+    }
+
+}

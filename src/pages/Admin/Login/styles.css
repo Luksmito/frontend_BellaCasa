@@ -1,0 +1,36 @@
+
+
+.login-box{
+    border: black solid 1px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    height: 250px;
+    width: 100%;
+    max-width: 300px;
+    padding: 4rem;
+    background-color: rgb(221, 217, 217);
+    margin-top: 3rem;
+    margin-left: 2.4rem;
+    border-top-left-radius:28px;
+    border-top-right-radius:28px;
+    border-bottom-right-radius:28px;
+    border-bottom-left-radius:28px;
+}
+
+.login-box .senha{
+    margin-top: 2rem;
+}
+
+.email{
+    color: black;
+}
+
+
+input{
+    border-top-left-radius:13px;
+    border-top-right-radius:13px;
+    border-bottom-right-radius:13px;
+    border-bottom-left-radius:13px;
+    height: 3rem;
+}

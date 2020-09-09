@@ -1,0 +1,32 @@
+
+.array{
+    width: 100%;
+    position: relative;
+    top: 25rem;
+    left: 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 4;
+}
+
+.array .produto{
+    margin: 1rem;
+    margin-left: 0rem; 
+}
+
+@media (min-width: 700px){
+    .array{
+        width: 100%;
+        position: relative;
+        top: 25rem;
+        left: 3rem;
+        display: flex;
+        padding-inline: 3rem;
+        padding: 2rem;
+        flex-wrap: wrap;
+    }
+    
+    .array .produto{
+        margin: 2rem 4.5rem;
+    }
+}

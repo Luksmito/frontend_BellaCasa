@@ -1,0 +1,62 @@
+
+*{
+    text-decoration: none;
+}
+
+input[type="checkbox"]{
+    display: none;
+    
+}
+
+.side-content{
+    margin-top: 0;
+}
+
+.side-bar{
+    background-color: white;
+    box-shadow: 1px 0px 7px rgba(0,0,0,0.5);
+    position:absolute;
+    top: 0;
+    width: 70%;
+    max-width: 400px;
+    z-index: 200;
+    transform: translateX(-100%);
+    transition: transform 0.3s;
+}
+
+
+
+.side-bar.open{
+    
+    transform: translateX(0);
+    transition: transform 0.3s;
+}
+
+
+
+a .item{
+    background-color: white;
+    display: block;
+    padding: 20px 5px;
+    color: rgb(99, 96, 96);
+    transition: 0.3s;
+}
+
+a:hover{
+    background-color:rgba(14,14,14,.5);
+    
+}
+
+ul{
+    top: -50px;
+    list-style: none;
+    padding: 0;
+    background-color: white;
+}
+
+li {
+    padding: 1.5rem;
+    border: black solid 1px;
+}
+
+

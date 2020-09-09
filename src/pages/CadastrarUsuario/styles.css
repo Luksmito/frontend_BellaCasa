@@ -1,0 +1,57 @@
+.geral{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+.geral .formulario-cadastro-usuario{
+    position: relative;
+    width: 100%;
+    max-width: 320px;
+    margin-left: 5%;
+    margin-top: 10%;
+    border: black solid 1px;
+    padding: 3rem;
+    background-color: rgb(218, 218, 218);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.input-block{
+    width: 270px;
+    position: relative;
+    margin-left: 1.1rem;
+    
+}
+
+.input-block input{
+    height: 2rem;
+}
+
+.botaoAfirmativo{
+    position: relative;
+    margin-left: 180px;
+}
+
+@media (min-width: 700px){
+    .geral .formulario-cadastro-usuario{
+        margin: 5% 25%;
+        max-width: 500px;
+        width: 600px;
+    }
+    
+    .input-block{
+        width: 450px;
+        position: relative;
+        margin-left: 1.1rem;
+        
+    }
+
+    .botaoAfirmativo{
+        position: relative;
+        margin-left: 180px;
+    }
+}
